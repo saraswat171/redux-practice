@@ -1,0 +1,17 @@
+.App {
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+width: 560px;
+}
+.Apppost{
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 5px;
+  gap: 10px;
+}
+

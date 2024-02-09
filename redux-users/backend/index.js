@@ -2,6 +2,7 @@ const express = require("express")
 const mongoose = require('mongoose')
 const UsersModel = require('./models/UserSchema')
 const app = express()
+const mongoose = require('./config/mongodb')
 app.use(express.text())
 app.use(express.urlencoded({extended: true})); 
 app.use(express.json());
